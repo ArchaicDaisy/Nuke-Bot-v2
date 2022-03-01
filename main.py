@@ -7,6 +7,7 @@ import asyncio
 
 p = input(f"{Fore.BLUE}Your Bot Prefix: ")
 client = commands.Bot(command_prefix=p)
+client.remove_command("help")
 user_id = input(f"{Fore.GREEN}Your user id: ")
 token = input(f"{Fore.RED}Your Bot Token: {Fore.RESET}")
 print(f"{Fore.GREEN}code by ArchaicDaisy")
@@ -39,6 +40,15 @@ async def on_ready():
     print('| ~*************************************')
     print('\\+========================================================')
     await client.change_presence(activity=discord.Game(name=f"coding {client.user}"))
+
+@client.command()
+async def help(ctx):
+  NUKE = discord.Embed(title = "", description = "````NUKE BOT V2``", color=0xe780dc)
+  NUKE.add_field(name = "**All Command**", value =f"```{p}help\n{p}nuke\n{p}stop\n{p}spamrole\n{p}spamch\n{p}ping\n{p}say```")
+  NUKE.set_thumbnail(url="https://media.discordapp.net/attachments/904746114341822524/905628980185546812/received_268843311710215.gif")
+  NUKE.set_image(url='https://media.discordapp.net/attachments/856403047806926890/902812608372039720/image0.gif')  
+  NUKE.set_footer (text=f"Nuke Bot V2")
+  await ctx.reply(embed=NUKE)
 
 @client.command()
 @commands.is_owner()
