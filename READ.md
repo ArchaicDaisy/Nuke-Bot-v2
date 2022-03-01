@@ -30,3 +30,5 @@ All Commands:
 
 # Developer
 - ArchaicDaisy
+
+  ![image](https://user-images.githubusercontent.com/97022487/156100953-2a5e5cc1-acd0-420e-a203-c1b72dfde2ed.png)
