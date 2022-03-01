@@ -11,6 +11,9 @@ All Function:
 - Spam Messages
 - Stop Spam Messages
 
+![image](https://user-images.githubusercontent.com/97022487/156101148-ccd1fcbd-bd42-4070-b7b4-e920dc6959ee.png)
+
+
 # Commands
 All Commands:
 - nuke
@@ -30,6 +33,4 @@ All Commands:
 
 # Developer
 - ArchaicDaisy
-
-![image](https://user-images.githubusercontent.com/97022487/156101098-2fe4e77c-ed4d-4127-be24-73d2c81124ce.png)
 
