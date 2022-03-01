@@ -25,6 +25,9 @@ All Commands:
 - spam
 - stopspam
 
+![image](https://user-images.githubusercontent.com/97022487/156101385-fcf561a3-9afe-4001-b2eb-8885e897957c.png)
+  
+  
 # Guide
 - Step 1:  Run this code
 - Step 2: Set your prefix in Console 
