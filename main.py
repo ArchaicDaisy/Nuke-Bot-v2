@@ -43,10 +43,10 @@ async def on_ready():
 
 @client.command()
 async def help(ctx):
-  NUKE = discord.Embed(title = "", description = "````NUKE BOT V2``", color=0xe780dc)
+  NUKE = discord.Embed(title = "", description = "``NUKE BOT V2``", color=0x131010)
   NUKE.add_field(name = "**All Command**", value =f"```{p}help\n{p}nuke\n{p}stop\n{p}spamrole\n{p}spamch\n{p}ping\n{p}say```")
-  NUKE.set_thumbnail(url="https://media.discordapp.net/attachments/904746114341822524/905628980185546812/received_268843311710215.gif")
-  NUKE.set_image(url='https://media.discordapp.net/attachments/856403047806926890/902812608372039720/image0.gif')  
+  NUKE.set_thumbnail(url="https://i.imgflip.com/5yiwpc.gif")
+  NUKE.set_image(url='https://i.imgflip.com/5yiwpc.gif')  
   NUKE.set_footer (text=f"Nuke Bot V2")
   await ctx.reply(embed=NUKE)
 
